@@ -1,0 +1,228 @@
+html.body{
+    font-size: 10px;
+}
+.choice-box{
+    width:90%;
+    margin: 0 auto;
+    .input_box{
+        padding: 0.8rem;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        margin: 0.8rem auto 0;
+        display: flex;
+         .input_hd{
+            flex: 1
+        }
+        .input_bd{
+            flex: 1
+        }
+        #className{
+            text-align: right;
+        }
+        input{
+            width:100%;
+            outline: none;
+            border: 0;
+        }
+    }
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    tr{
+        height:3.5rem;
+    }
+    .titleTr{
+      font-size:1.4rem;
+      font-weight:400;
+      color:rgba(34,34,34,1);
+    }
+    tbody tr{
+        border-bottom: 1px solid #f5f5f5;
+    }
+   }
+.header_top{
+    width: 100%;
+    height:3.85rem;
+    line-height:3.85rem;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+    position:relative;
+    .header_row{
+      width:90%;
+      margin:0 auto;
+    }
+    .icon{
+      width: 2rem;
+      height: 2rem;
+      margin-left: 2rem;
+    }
+    .title{
+      font-size:1.8rem;
+      color:#303030;
+    }
+    .icon_right{
+        width: 2rem;
+        height: 2rem;
+        position:absolute;
+        right:5%;
+        top:0;
+    }
+    .icon_left{
+        position:absolute;
+        left:5%;
+
+    }
+  }
+  .weekTime{
+    width:90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    flex: 5;
+    .timeBox{
+        margin: 0 5%;
+        flex: 3;
+        background: #EEEEEE;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .week_btn{
+        line-height: 3rem;
+    }
+}
+#studyDetail{
+    font-size:1.6rem;
+    .content_box{
+        width:90%;
+        margin:0 auto;
+        padding:1.5rem 0 0;
+        line-height:3rem;
+    }
+    .time_p{
+        font-weight: bold;
+        text-align: center;
+    }
+    .data_span{
+        font-weight: bold;
+    }
+    .note_box{
+        margin:2rem auto;
+        padding:1.5rem 2rem 1.5rem ;
+        border:1px solid #f7941d;
+        position:relative; background-color:#FFF;
+    }
+    .status_p{
+         height: 4.5rem;
+         background-color: #fff;
+        }
+    .status_p span{
+        display: inline-block;
+        width:50%;
+        text-align: center;
+        height:4.3rem;
+        line-height:4.3rem;
+        float: left;
+    }
+    .read_btn a{
+        border-bottom: 2px solid #f7941d;
+        color:#f7941d;
+    }
+    .voice_btn a{
+        color:#959595;
+    }
+    .word_data{
+        padding-top:3.5rem;
+    }
+    .no_content{
+        width:90%;
+        text-align: center;
+        margin:8rem auto;
+        display: none;
+    }
+    .no_content img{
+        width:20%;
+    }
+    .arrow{
+        position:absolute;
+        width:2rem;
+        height:0;
+        top:-3rem;
+        left:5rem;
+    }
+    .arrow *{
+        display:block;
+        border-width:1.5rem;
+        position:absolute;
+        border-style:solid dashed dashed dashed;
+        font-size:0; line-height:0;
+    }
+    .arrow em{
+        border-color: transparent transparent #f7941d transparent;
+    }
+    .arrow span{
+        border-color: transparent transparent #fff; top:2px;
+    }
+    .checkBtn{
+        height:25px;
+        line-height:25px;
+        border-radius:15px;
+        padding:0 15px;
+        background:#F19149;
+        color:#fff;
+        font-size:15px;
+        box-shadow:0px 2px 0px 0px rgba(241,145,73,0.5);
+     }
+}
+.mx-input{
+    border: 1px solid transparent !important;
+}
+#understingRateDetail{
+    .green{
+        color:#48bf18;
+    }
+    .yellow{
+        color:#fcc833;
+    }
+    .red{
+        color: #ff0000;
+    }
+    .left{
+        width:90%;
+        margin:2rem auto;
+        border-left:1px solid #000;
+        position: relative;
+    }
+    .time_p{
+        position: relative;
+        left:-8px;z-index: 2;
+        top:-5px;
+    }
+    .ld{
+        display: inline-block;
+        width:15px;  height:15px;
+        border-radius: 50%;
+        background-color: #40c30f;
+    }
+    .px_div{
+        margin: 8px 0 20px 15px;
+        background-color: #fff;
+        padding: 15px 15px 10px;
+        border-radius: 4px;
+    }
+    .data{
+        position: relative;
+        top:-0.25rem;
+    }
+    .piece{
+        position: relative;
+        top:-0.25rem;
+        margin-left: 10rem;
+    }
+    .noPass{
+        float: right;
+        color:#ff8d1a;
+    }
+}

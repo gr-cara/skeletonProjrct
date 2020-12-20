@@ -1,0 +1,319 @@
+/* scroll header */
+header.header-scroll{
+    position: fixed;
+    top: 0;
+    width: 20rem;
+    background: #fff;
+    z-index: 1000;
+}
+header.header-scroll .title{
+    padding: 1rem;
+    background: #4DBAFF;
+    color: #fff;
+    text-align: center;
+}
+header.header-scroll .title img,header.header-noscroll .title-content .title-header img{
+    position: absolute;
+    left: 1rem;
+    top: .8rem;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+header.header-scroll .title span,header.header-noscroll .title-content .title-header span{
+    font-size: 1rem;
+    font-family:AliHYAiHei;
+    text-shadow:0px 0px 0px rgba(60,204,255,1);
+}
+header.header-scroll .tab,header.header-noscroll .tab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header.header-scroll .tab{
+    box-shadow:0rem 0.08rem 1.04rem 0rem rgba(42,153,247,0.6);
+}
+header.header-scroll .tab span,header.header-noscroll .tab a{
+    padding: 1rem 0;
+    font-size: .78rem;
+    font-weight: 500;
+    color: #433F5C;
+}
+header.header-scroll .tab a.active,header.header-noscroll .tab a.active{
+    border-bottom: 3px solid #2897F6;
+    color: #2897F6;
+}
+/* no scroll header */
+header.header-noscroll{
+    position: relative;
+    z-index: 2;
+    background: #fff;
+}
+header.header-noscroll img{
+    width: 100%;
+}
+header.header-noscroll .title-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+header.header-noscroll .title-content .title-header{
+    padding: 1rem 0;
+    color: #fff;
+}
+header.header-noscroll .title-content .title-innercontent{
+    padding-left: 1rem;
+    color: #59B8FE;
+    font-size: .63rem;
+    font-weight: 600;
+}
+header.header-noscroll .title-content .title-innercontent .day{
+    font-size: 1.04rem;
+    
+}
+header.header-noscroll .title-content .title-innercontent .updatetime,.upadtedata{
+    padding: .5rem 1rem;
+}
+.upadtedata{
+    padding-top: 0;
+}
+/* container */
+.container .china-power,.books-level,.studyLen-books,.words-bank,.speed-rate,.study-progress{
+    position: relative;
+    padding: 1rem 0;
+    font-size: .68rem;
+    color: #433F5C;
+}
+.container .cloud{
+    position: absolute;
+    top: -1.3rem;
+    left: .3rem;
+    width: 5rem;
+}
+
+.container .content-start{
+    border-radius:0rem 0rem 0.65rem 0.65rem;
+    padding: 2.6rem 0 2rem 0;
+    margin-top: -.1rem;
+    color: #433F5C;
+}
+.container .content-start .content-start-days{
+    font-size: .8rem;
+    padding-bottom: 1.6rem;
+}
+.container .content-start .content-start-tips{
+    font-size: .68rem;
+    padding: .5rem 0;
+}
+.container .content-start span{
+    font-size: 1.6rem;
+    font-family:AliHYAiHei;
+}
+
+.container .container-content-title{
+    color: #fff;
+    background: url('https://static.tope365.com/report/images/study/headline_bule.webp') 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    padding: .3rem 0 .35rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+}
+.container .china-power .china-power-now{
+    margin: 2rem 0 1.5rem;
+}
+.container .china-power .china-power-now .purple{
+    font-weight: bold;
+}
+.container .china-power .china-power-up img{
+    width: 90%;
+    margin-left:5%;
+}
+.container .china-power .china-power-up .power-level{
+    /* position: absolute;
+    top: 5rem;
+    right: 0; */
+    font-size: .6rem;
+    color: #fff;
+    font-weight: 600;
+}
+.container .china-power .china-power-up .power-level .future{
+    position: absolute;
+    top: 15%;
+    right: 36%;
+    z-index: 5;
+    max-width: 40%;
+    line-height: .8rem;
+
+}
+.container .china-power .china-power-up .power-level .futureTip{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    z-index: 5;
+    max-width: 40%;
+    font-size: .5rem;
+    line-height: .6rem;
+}
+
+.container .china-power .china-power-up .power-level .now{
+    position: absolute;
+    top: 34%;
+    left: 52%;
+    z-index: 5;
+    max-width: 40%;
+}
+.container .china-power .china-power-up .power-level .school{
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    z-index: 5;
+}
+
+.container .pen{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 3rem;
+}
+.container .books-level .books-audio-content .level-progress{
+    width: 80%;
+    margin: 1rem auto;
+    background:rgba(229,229,229,1);
+    height: .5rem;
+    border-radius: .5rem;
+    display: flex;
+}
+.container .books-level .books-audio-content .level-explain{
+    font-size: .63rem;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+}
+.container .books-level .books-audio-content .level-progress .progress-bar{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.container .books-level .books-audio-content img{
+    height: 3rem;
+    margin: 1rem 0 0 0;
+    border-radius: 2rem;
+}
+.progress-bar .books-progress-bar{
+    height: 100%;
+    background: #2897F6;
+    border-radius:2.6rem 0rem 0rem 2.6rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.progress-bar .audio-progress-bar{
+    height: 100%;
+    background: #FFC313;
+    border-radius:0rem 2rem 2rem 0rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container .studyLen-books{
+    font-size: .68rem;
+    font-weight: 600;
+}
+.container .studyLen-books .time-stage{
+    margin:1.2rem 0;
+}
+.container .studyLen-books .studyLen-content{
+    width: 72%;
+    margin: 0 auto 1rem;
+}
+.container .studyLen-books .studyLen-content .studyLen-content-item{
+    border-bottom: 1px dashed #FFC81B;
+    padding: 1rem 0;
+}
+.container .studyLen-books .studyLen-content .studyLen-content-item .item-no{
+    background: url('https://static.tope365.com/report/images/study/button_progress.webp') 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .52rem;
+    margin-right:.6rem;
+}
+.container .studyLen-books .study-books{
+    margin: .8rem 0 1rem 0;
+}
+.container .studyLen-books .studyLen-content .studyLen-content-item .studyLen-content-item-content{
+    padding-left: 1.6rem;
+}
+.container .studyLen-books .studyLen-content .studyLen-content-item .studyLen-content-item-content span{
+    font-size: .78rem;
+}
+.container .studyLen-books .studyLen-content .studyLen-content-item .studyLen-content-item-content div{
+    margin: .5rem 0;
+}
+.container .studyLen-books .studyLen-chart,.words-bank .studyLen-chart{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0 0 1.3rem 1.3rem;
+}
+.container .studyLen-books .studyLen-chart .chart-container,.words-bank .studyLen-chart .chart-container{
+    border-radius: 0 0 1rem 1rem;
+    padding: .5rem 0 1.5rem 0;
+    position: relative;
+}
+.container .studyLen-books .studyLen-chart .chart-container .chart-item,.words-bank .studyLen-chart .chart-container .chart-item,.speed-rate .chart-item{
+    margin: 1rem 0;
+}
+.container .studyLen-books .studyLen-chart .chart-container .chart-item span.square,.words-bank .studyLen-chart .chart-container .chart-item span.square,.speed-rate .chart-item span.square{
+    width: .8rem;
+    height: .8rem;
+    background: #2897F6;
+    display: inline-block;
+    margin-right: .4rem;
+}
+.container .studyLen-books .studyLen-chart .chart-container .chart-item span.high,.words-bank .studyLen-chart .chart-container .chart-item span.high,.speed-rate .chart-item span.high{
+    width: .8rem;
+    height: .8rem;
+    display: inline-block;
+    margin-right: .4rem;
+}
+.container .studyLen-books .studyLen-chart .chart-container .chart-item span.high img,.words-bank .studyLen-chart .chart-container .chart-item span.high img,.speed-rate .chart-item span.high img{
+    width: 100%;
+}
+.container .studyLen-books .studyLen-chart .chart-container .chart-item span.line,.words-bank .studyLen-chart .chart-container .chart-item span.line,.speed-rate .chart-item span.line{
+    width: 1.2rem;
+    height: .8rem;
+    line-height: .8rem;
+    color: #FFC313;
+    display: inline-block;
+    margin-right: .4rem;
+}
+.container .studyLen-books .studyLen-chart .chart-title div,.words-bank .studyLen-chart .chart-title div{
+    background: url('https://static.tope365.com/report/images/study/selectoff_p.webp') 0 0 no-repeat;
+    background-size: 100% 100%;
+    padding: .6rem 1rem;
+    color: #fff;
+    font-size: .78rem;
+}
+.container .studyLen-books .studyLen-chart .chart-title div.active,.words-bank .studyLen-chart .chart-title div.active{
+    background: url('https://static.tope365.com/report/images/study/select_red.webp') 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+#chart-graph{
+    width: 100%;
+    height: 18rem;
+}
+#showChart-graph{
+    width: 100%;
+    height: 18rem;
+}
+#distribution-chart{
+    width: 100%;
+    height: 14rem;
+}
+#speed-rate-chart{
+    width: 100%;
+    height: 16rem;
+}
